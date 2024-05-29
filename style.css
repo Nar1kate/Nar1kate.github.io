@@ -427,11 +427,13 @@ h2 {
     padding-top: 30px;
 }
 
+
+
 .animated-element {
-    opacity: 0; 
-    transition: opacity 1S ease; 
+    opacity: 0; /* Начальное значение прозрачности */
+    transition: opacity 1.5s ease; /* Анимация перехода */
 }
 
 .animated-element.animated {
-    opacity: 1; 
+    opacity: 1; /* Значение прозрачности после анимации */
 }
