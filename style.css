@@ -429,7 +429,7 @@ h2 {
 
 .animated-element {
     opacity: 0; 
-    transition: opacity 1.5s ease; 
+    transition: opacity 1S ease; 
 }
 
 .animated-element.animated {
