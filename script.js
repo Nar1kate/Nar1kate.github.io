@@ -31,3 +31,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+window.addEventListener('scroll', function() {
+  var element = document.querySelector('.animated-element');
+  var position = element.getBoundingClientRect().top;
+  var windowHeight = window.innerHeight;
+  if (position < windowHeight) {
+      element.classList.add('animated');
+  }
+});
